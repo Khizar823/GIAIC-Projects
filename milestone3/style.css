@@ -1,0 +1,80 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(to right, #ADD8E6, #87CEEB); /* Light blue gradient */
+}
+    
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background : linear-gradient(to left, #E0FFFF, #B0E0E6); /* Lighter blue gradient */
+    border-radius: 8px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+fieldset {
+    border-radius: 8px;
+    border: 1px solid whitesmoke; /* Light Steel Blue for the border */
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color : #A9A9A9;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+
+input,textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: #FFFDD0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    height: 50px ;
+    width: 600px;
+    background-color: #A9A9A9;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+button:hover {
+    background-color: rgb(24, 106, 117) ;
+}
+
+#resumeOutput {
+    max-width:  600px;
+    margin: auto;
+    background-color: rgb(233, 239, 245) ;
+    border-radius: 8px ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+#resumeOutput h2 {
+    color: black;
+}
